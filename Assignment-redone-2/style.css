@@ -1,0 +1,1260 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    margin: 30px;
+    font-family: system-ui, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hd {
+    color: white;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+.title {
+    color: white;
+    font-size: 0.5em;
+}
+.line {
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    max-width: 100%;
+    margin-top: 12px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+.cardbackground {
+    background: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+.middlecardbackground {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    width: 50%;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+.middlecardbackground p {
+    color: white;
+}
+#jd {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.q2 {
+    color: white;
+    font-size: 0.5em;
+}
+.navbarb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: auto;
+}
+
+.logo p {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.navigations {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.navigations li a {
+  display: block;
+  padding: 8px 14px;
+  color: white;
+  text-decoration: none;
+  border-radius: 999px;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.navigations li a:hover {
+  background: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+.navigations li a.active {
+  background: white;
+  color: #2c3e50;
+  font-weight: 600;
+}
+.cfg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.oneb {
+    color: white;
+    width: 100%;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.twob {
+    color: white;
+    width: 100%;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.threeb {
+    color: white;
+    width: 100%;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+#bold {
+    font-weight: bold;
+}
+.hglhrb {
+    background: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    height: 50px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.content {
+    display: flex;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    height: 300px;
+}
+.leftcontent {
+    padding: 10px;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+.leftcontent p {
+    color: white;
+}
+.rightcontent {
+    padding: 10px;
+    width: 100%;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+.rightcontent p {
+    color: white;
+}
+.hglftrb {
+    background: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    height: 50px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.pfgb {
+    background: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    place-content: center;
+    padding: 20px;
+    gap: 10px;
+}
+.photoframe {
+    background: rgba(255, 255, 255, 0.15);
+    width: 85%;
+    height: 110px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+.photoframe img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ttpb {
+    background: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.box1 {
+    background: rgba(2, 92, 248, 0.15);
+    width: 40%;
+    height: 110px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    color: white;
+}
+.box2 {
+    background: rgba(2, 92, 248, 0.15);
+    width: 40%;
+    height: 110px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    color: white;
+}
+.box3 {
+    background: rgba(2, 92, 248, 0.15);
+    width: 40%;
+    height: 110px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+    color: white;
+}
+.box1:hover {
+    background: rgba(0, 3, 20, 0.2);
+    transform: translateX(25px);
+}
+.box2:hover {
+    background: rgba(228, 96, 2, 0.2);
+    transform: translateY(-25px);
+}
+.box3:hover {
+    background: rgba(11, 120, 1, 0.2);
+    transform: translate(25px, -25px);
+}
+.tptb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.basic {
+    background: rgba(255, 255, 255, 0.15);
+    width: 90%;
+    height: 200px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.pro {
+    background: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    height: 200px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgb(65, 1, 107);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.ent {
+    background: rgba(255, 255, 255, 0.15);
+    width: 90%;
+    height: 200px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#tierbold {
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+.profileb {
+    background: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    height: 250px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.jdb {
+    background: rgba(255, 255, 255, 0.15);
+    width: 100px;
+    height: 100px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 80px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.jdb p {
+    color: white;
+    font-size: 1.9em;
+    font-weight: bolder;
+}
+.jdse {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+}
+#jdbold {
+    font-weight: bold;
+}
+.lgfb {
+    background: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    height: 300px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loginform {
+    background: rgba(255, 255, 255, 0.15);
+    width: 80%;
+    height: 250px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loginform p {
+    color: white;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.loginform input {
+    background: rgba(255, 255, 255, 0.15);
+    width: 80%;
+    height: 30px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+}
+.loginform input::placeholder {
+    padding: 8px;
+    font-weight: bold;
+    color: white;
+    transition: color 0.2s;
+}
+.loginform input:focus::placeholder {
+    color: transparent;
+}
+.loginform button {
+    background: rgba(255, 255, 255, 0.15);
+    width: 80%;
+    height: 30px;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-weight: bold;
+}
+.ftr2b {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    color: white;
+}
+.leftftr a {
+    color: white;
+}
+.leftftr a:hover {
+    text-decoration: underline;
+}
+.ftrbold {
+    font-weight: bold;
+}
+.middleftr a {
+    color: white;
+}
+.middleftr a:hover {
+    text-decoration: underline;
+}
+.rightftr a {
+    color: white;
+}
+.rightftr a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 490px) {
+    .title {
+        font-size: 0.8em;
+    }
+    .cardbackground {
+        height: 250px;
+    }
+    .middlecardbackground {
+        height: 150px;
+    }
+    .jd {
+        font-size: 1.5em;
+    }
+    .navbarb {
+        height: auto;
+    }
+    .logo p {
+        font-size: 1.8em;
+    }
+    .navigations li a {
+        font-size: 1.3em;
+    }
+    #bold {
+        font-size: 1.2em;
+    }
+    .hglhrb {
+        height: 60px;
+    }
+    .hglftrb {
+        height: 60px;
+    }
+    .content {
+        height: 400px;
+    }
+    .photoframe {
+        height: 140px;
+    }
+    .box1 {
+        height: 130px;
+    }
+    .box2 {
+        height: 130px;
+    }
+    .box3 {
+        height: 130px;
+    }
+    #hm {
+        font-weight: bold;
+    }
+    #tierbold {
+        font-size: 1.3em;
+    }
+    .profileb {
+        height: 290px;
+    }
+    #jdbold {
+        font-size: 1.4em;
+    }
+    .lgfb {
+        height: 400px;
+    }
+    .loginform {
+        height: 280px;
+    }
+}
+@media (min-width: 768px) {
+    .hd {
+        font-size: 1.3em;
+    }
+    .cardbackground {
+        height: 350px;
+    }
+    .middlecardbackground {
+        width: 35%;
+        height: 200px;
+    }
+    .oneb {
+        height: 250px;
+    }
+    .oneb p {
+        font-size: 1.5em;
+    }
+    #bold {
+        font-size: 1.7em;
+    }
+    .twob {
+        height: 250px;
+    }
+    .twob p {
+        font-size: 1.5em;
+    }
+    .threeb {
+        height: 250px;
+    }
+    .threeb p {
+        font-size: 1.5em;
+    }
+    .content {
+        height: 550px;
+    }
+    .hglhrb {
+        height: 100px;
+    }
+    .hglhrb p {
+        font-size: 1.5em;
+    }
+    .hglftrb {
+        height: 100px;
+    }
+    .hglftrb p {
+        font-size: 1.5em;
+    }
+    .leftcontent {
+        width: 30%;
+    }
+    .content p {
+        font-size: 1.4em;
+    }
+    .photoframe {
+        height: 250px;
+    }
+    #hm {
+        font-size: 1.5em;
+    }
+    .box1 {
+        width: 35%;
+        height: 200px;
+    }
+    .box2 {
+        width: 35%;
+        height: 200px;
+    }
+    .box3 {
+        width: 35%;
+        height: 200px;
+    }
+    .basic {
+        height: 300px;
+    }
+    .pro {
+        height: 300px;
+    }
+    .ent {
+        height: 300px;
+    }
+    #tierbold {
+        font-size: 1.8em;
+    }
+    .basic p {
+        font-size: 1.4em;
+    }
+    .pro p {
+        font-size: 1.4em;
+    }
+    .ent p {
+        font-size: 1.4em;
+    }
+    .profileb {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-left: 40px;
+    }
+    .jdb {
+        width: 150px;
+        height: 150px;
+    }
+    .jdb p {
+        font-size: 2.5em;
+    }
+    #jdbold {
+        font-size: 1.9em;
+    }
+    .jdse p {
+        font-size: 1.5em;
+    }
+    .loginform {
+        width: 50%;
+    }
+    .loginform p {
+        font-size: 1.5em;
+    }
+    .ftr2b {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .leftftr {
+        width: 100%;
+    }
+    .leftftr a {
+        font-size: 1.3em;
+    }
+    .middleftr {
+        width: 100%;
+    }
+    .middleftr a {
+        font-size: 1.3em;
+    }
+    .rightftr {
+        width: 100%;
+    }
+    .rightftr a {
+        font-size: 1.3em;
+    }
+    .ftrbold {
+        font-size: 1.5em;
+    }
+}
+@media (min-width: 960px) {
+    .title {
+        font-size: 1.2em;
+    }
+    .middlecardbackground p {
+        font-size: 1.5em;
+    }
+    .photoframe {
+        height: 300px;
+    }
+    .loginform {
+        width: 40%;
+    }
+    .loginform input {
+        height: 40px;
+    }
+    .loginform button {
+        height: 40px;
+        font-size: 1.4em;
+    }
+    .loginform input::placeholder {
+        font-size: 1.4em;
+    }
+}
+@media (min-width: 1032px) {
+    .title {
+        font-size: 1.4em;
+    }
+    .middlecardbackground {
+        width: 30%;
+        height: 250px;
+    }
+    #jd {
+        font-size: 2em;
+    }
+    .middlecardbackground p {
+        font-size: 1.7em;
+    }
+    .navbarb {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navigations ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .navigations li a {
+        font-size: 1.5em;
+
+    }
+    .oneb {
+        height: 350px;
+    }
+    .twob {
+        height: 350px;
+    }
+    .threeb {
+        height: 350px;
+    }
+    #bold {
+        font-size: 2.4em;
+    }
+    .oneb p {
+        font-size: 1.9em;
+    }
+    .twob p {
+        font-size: 1.9em;
+    }
+    .threeb p {
+        font-size: 1.9em;
+    }
+    .content {
+        height: 800px;
+    }
+    .leftcontent p {
+        font-size: 1.9em;
+    }
+    .rightcontent p {
+        font-size: 1.9em;
+    }
+    .hglhrb {
+        height: 130px;
+    }
+    .hglhrb p {
+        font-weight: bold;
+        font-size: 2em;
+    }
+    .hglftrb {
+        height: 130px;
+    }
+    .hglftrb p {
+        font-weight: bold;
+        font-size: 2em;
+    }
+    .photoframe {
+        height: 350px;
+    }
+    .pfgb {
+        padding: 40px;
+        gap: 20px;
+    }
+    .ttpb {
+        gap: 60px;
+    }
+    .box1 {
+        width: 40%;
+        height: 300px;
+    }
+    .box2 {
+        width: 40%;
+        height: 300px;
+    }
+    .box3 {
+        width: 40%;
+        height: 300px;
+    }
+    #hm {
+        font-size: 1.9em;
+    }
+    .basic {
+        height: 350px;
+    }
+    .basic p {
+        font-size: 1.7em;
+    }
+    .pro {
+        height: 350px;
+    }
+    .pro p {
+        font-size: 1.7em;
+    }
+    .ent {
+        height: 350px;
+    }
+    .ent p {
+        font-size: 1.7em;
+    }
+    #tierbold {
+        font-size: 2.4em;
+    }
+    .profileb {
+        height: 350px;
+    }
+    .jdb p {
+        font-size: 3em;
+    }
+    #jdbold {
+        font-size: 2.5em;
+    }
+    .jdse p {
+        font-size: 1.9em;
+    }
+    .lgfb {
+        height: 600px;
+    }
+    .loginform {
+        height: 400px;
+    }
+    .loginform input {
+        height: 60px;
+    }
+    .loginform button {
+        height: 60px;
+        font-size: 1.7em;
+    }
+    .loginform p {
+        font-size: 1.9em;
+    }
+    .loginform input::placeholder {
+        font-size: 1.7em;
+    }
+    .ftr2b {
+        height: 500px;
+    }
+    .ftr2b .ftrbold {
+        font-size: 1.8em;
+    }
+    .leftftr a {
+        font-size: 1.6em;
+    }
+    .middleftr a {
+        font-size: 1.6em;
+    }
+    .rightftr a {
+        font-size: 1.6em;
+    }
+}
+@media (min-width: 1280px) {
+    .title {
+        font-size: 1em;
+    }
+    .middlecardbackground {
+        height: 200px;
+        width: 20%;
+    }
+    .middlecardbackground p {
+        font-size: 1.2em;
+    }
+    #jd {
+        font-size: 1.4em;
+    }
+    .cfg {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .oneb {
+        height: 200px;
+    }
+    .oneb p {
+        font-size: 1.2em;
+    }
+    .twob {
+        height: 200px;
+    }
+    .twob p {
+        font-size: 1.2em;
+    }
+    .threeb {
+        height: 200px;
+    }
+    .threeb p {
+        font-size: 1.2em;
+    }
+    #bold {
+        font-size: 1.4em;
+    }
+    .pfgb {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .photoframe {
+        height: 200px;
+    }
+    .ttpb {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 60px;
+    }
+    .box1 {
+        width: 15%;
+        height: 160px;
+    }
+    .box2 {
+        width: 15%;
+        height: 160px;
+    }
+    .box3 {
+        width: 15%;
+        height: 160px;
+    }
+    #hm {
+        font-size: 1.2em;
+    }
+    .tptb {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .basic {
+        height: 200px;
+    }
+    .basic p {
+        font-size: 1.1em;
+    }
+    .pro {
+        width: 100%;
+        height: 220px;
+    }
+    .pro p {
+        font-size: 1.1em;
+    }
+    .ent {
+        height: 200px;
+    }
+    .ent p {
+        font-size: 1.1em;
+    }
+    #tierbold {
+        font-size: 1.4em;
+    }
+    .profileb {
+        height: 250px;
+    }
+    #jdbold {
+        font-size: 1.6em;
+    }
+    .jdse p {
+        font-size: 1.3em;
+    }
+    .lgfb {
+        height: 400px;
+    }
+    .loginform {
+        height: 250px;
+        width: 30%;
+    }
+    .loginform p {
+        font-size: 1.5em;
+    }
+    .loginform input {
+        width: 60%;
+        height: 30px;
+    }
+    .loginform input::placeholder {
+        font-size: 1.1em;
+    }
+    .loginform button {
+        width: 60%;
+        height: 30px;
+        font-size: 1.1em;
+    }
+    .ftr2b .ftrbold {
+        font-size: 1.2em;
+    }
+    .leftftr a {
+        font-size: 1em;
+    }
+    .middleftr a {
+        font-size: 1em;
+    }
+    .rightftr a {
+        font-size: 1em;
+    }
+}
+@media (min-width: 1536px) {
+    .content {
+        height: 400px;
+    }
+    .hglhrb {
+        height: 80px;
+    }
+    .hglhrb p {
+        font-weight: normal;
+        font-size: 1.7em;
+    }
+    .hglftrb {
+        height: 80px;
+    }
+    .hglftrb p {
+        font-weight: normal;
+        font-size: 1.7em;
+    }
+    .leftcontent {
+        width: 15%;
+    }
+    .leftcontent p {
+        font-size: 1.3em;
+    }
+    .rightcontent p {
+        font-size: 1.3em
+    }
+    .pfgb {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .box1 {
+        height: 180px;
+    }
+    .box2 {
+        height: 180px;
+    }
+    .box3 {
+        height: 180px;
+    }
+    .loginform {
+        width: 25%;
+        height: 280px;
+    }
+}
+@media (min-width: 2560px) {
+    .title {
+        font-size: 1.5em;
+    }
+    .middlecardbackground {
+        width: 10%;
+    }
+    .middlecardbackground p {
+        font-size: 1.4em;
+    }
+    #jd {
+        font-size: 1.8em;
+    }
+    .oneb {
+        height: 300px;
+    }
+    .oneb p {
+        font-size: 1.7em;
+    }
+    .twob {
+        height: 300px;
+    }
+    .twob p {
+        font-size: 1.7em;
+    }
+    .threeb {
+        height: 300px;
+    }
+    .threeb p {
+        font-size: 1.7em;
+    }
+    #bold {
+        font-size: 2em;
+    }
+    .content {
+        height: 500px;
+    }
+    .leftcontent p {
+        font-size: 1.8em;
+    }
+    .rightcontent p {
+        font-size: 1.8em;
+    }
+    .hglhrb {
+        height: 100px;
+    }
+    .hglhrb p {
+        font-size: 2em;
+    }
+    .hglftrb {
+        height: 80px;
+    }
+    .hglftrb p {
+        font-size: 2em;
+    }
+    .pfgb {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+    }
+    .photoframe {
+        height: 250px;
+    }
+    .box1 {
+        width: 10%;
+        height: 220px;
+    }
+    #hm {
+        font-size: 1.7em;
+    }
+    .box2 {
+        width: 10%;
+        height: 220px;
+    }
+    .box3 {
+        width: 10%;
+        height: 220px;
+    }
+    .basic {
+        height: 300px;
+    }
+    .basic p {
+        font-size: 1.8em;
+    }
+    .pro {
+        border: 1.4px solid rgb(65, 1, 107);
+        height: 330px;
+    }
+    .pro p {
+        font-size: 1.8em;
+    }
+    .ent {
+        height: 300px;
+    }
+    .ent p {
+        font-size: 1.8em;
+    }
+    #tierbold {
+        font-size: 2.3em;
+    }
+    .profileb {
+        height: 350px;
+    }
+    #jdbold {
+        font-size: 2.5em;
+    }
+    .jdse p {
+        font-size: 1.9em;
+    }
+    .lgfb {
+        height: 550px;
+    }
+    .loginform {
+        width: 20%;
+        height: 350px;
+    }
+    .loginform p {
+        font-size: 2.4em;
+    }
+    .loginform input {
+        height: 50px;
+    }
+    .loginform input::placeholder {
+        font-size: 1.8em;
+    }
+    .loginform button {
+        height: 50px;
+        font-size: 1.8em;
+    }
+    .ftr2b .ftrbold {
+        font-size: 1.9em;
+    }
+    .leftftr a {
+        font-size: 1.6em;
+    }
+    .middleftr a {
+        font-size: 1.6em;
+    }
+    .rightftr a {
+        font-size: 1.6em;
+    }
+}
