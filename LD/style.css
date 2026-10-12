@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    font-family: "Inter", Arial, sans-serif;
+    background: linear-gradient(to bottom,#fffafa 0%, #f8d2ec 50%, #f9f3fa 100%);
+    height: auto;
+}
+@font-face {
+    font-family: 'myFont';
+    src: url(/src/Raleway/Raleway-VariableFont_wght.ttf) format('truetype');
+    font-weight: 410;
+}
+@font-face {
+    font-family: 'myFont2';
+    src: url(/src/PlayfairDisplay-VariableFont_wght.ttf) format('truetype');
+    font-weight: 700;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.navbar::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+.leftnav {
+    position: relative;
+    z-index: 20;
+}
+.leftnav p {
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+#Logo-L {
+    color: #DF027C;
+}
+#logo-D {
+    color: #5DABE5;
+}
+.navlinks {
+    display: none;
+}
+.navlinks.open {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: rgba(4, 4, 4, 0.9);
+    z-index: 10;
+}
+.fa-bars {
+    color: #DF027C;
+}
+.hamburger {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 20;
+}
+.navlinks li a {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.navlinks ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.navlinks li a:hover {
+    padding: 5px 10px;
+    border: 1px #DF027C solid;
+    border-radius: 8px;
+}
+.content {
+    margin: 30px 10px 50px 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.pframe {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.pframe img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.company p {
+    color: #DF027C;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+.company {
+    margin-bottom: 15px;
+}
+.title h1 {
+    color: #524A55;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+.title #digital {
+    color: #5DABE5;
+}
+.title #lexis {
+    color: #DF027C;
+}
+.title {
+    margin-bottom: 15px;
+}
+.text p {
+    color: #524A55;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-size: 1rem;
+    font-family: 'myFont';
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btn1 button {
+    margin-top: 50px;
+    background-color: #DF027C;
+    border: none;
+    border-radius: 8px;
+    width: 60%;
+    height: 40px;
+    color: white;
+}
+.btn2 button {
+    background: none;
+    border: #5DABE5 1px solid;
+    border-radius: 8px;
+    color: #5DABE5;
+    width: 40%;
+    height: 40px;
+    margin-bottom: 85px;
+}
+.numbers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#num {
+    font-family: 'myFont2';
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+.firstnum {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    align-content: center;
+}
+.secondnum {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    align-content: center;
+}
+.thirdnum {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 200px;
+    align-content: center;
+}
+.os {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+.os p {
+    color: #524A55;
+}
+#osp {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #524A55;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: white;
+    padding: 30px 0 60px 0;
+}
+.wmd {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    text-align: center;
+    padding: 0 15px;
+    gap: 15px;
+}
+.wmd p {
+    color: #524A55;
+}
+#cardsboldtext {
+    font-family: 'myFont';
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+.dmm {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    text-align: center;
+    padding: 0 15px;
+    gap: 15px;
+}
+.dmm p {
+    color: #524A55;
+}
+.wmdintro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+    margin-top: 30px;
+}
+#introtitle {
+    font-family: 'myFont';
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: black;
+}
+#shortintro {
+    color: #524A55;
+    font-family: 'myFont';
+    letter-spacing: 1px;
+    line-height: 2;
+}
